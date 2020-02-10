@@ -45,8 +45,9 @@ function init() {
 
     turn = "X";
     win = null;
-
+    
     render();
+    //stops audio from playing
     victoryAudio.pause();
     victoryAudio.currentTime = 0;
 }
