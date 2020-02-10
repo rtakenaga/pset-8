@@ -12,7 +12,6 @@ const winningConditions = [
 ];
 
 ///////////////////// APP STATE (VARIABLES) /////////////////////////
-
 let board;
 let turn;
 let win;
