@@ -45,7 +45,7 @@ function init() {
 
     turn = "X";
     win = null;
-    
+    //used to diplay the text above the box
     render();
     //stops audio from playing
     victoryAudio.pause();
