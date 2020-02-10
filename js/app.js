@@ -51,7 +51,7 @@ function init() {
     victoryAudio.pause();
     victoryAudio.currentTime = 0;
 }
-//this is for the text
+//this is for the text above
 function render() {
     board.forEach(function(mark, index) {
         squares[index].textContent = mark;
