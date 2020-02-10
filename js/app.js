@@ -34,7 +34,7 @@ document.getElementById("reset-score-button").onclick = resetScore;
 
 ///////////////////// FUNCTIONS /////////////////////////////////////
 
-
+//this first makes the board with an array
 
 function init() {
     board = [
