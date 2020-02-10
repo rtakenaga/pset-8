@@ -22,6 +22,7 @@ let ties = 0;
 let starter = "X";
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
+
 const squares = Array.from(document.querySelectorAll("#board div"));
 const message = document.querySelector("h2");   // grab the subheader
 const victoryAudio = document.getElementById("victory-audio");
